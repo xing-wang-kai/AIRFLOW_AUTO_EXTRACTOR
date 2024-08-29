@@ -1,4 +1,4 @@
-#!/home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/bin/python3
+#!/home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/bin/python3.9
 
 # $Id: rst2latex.py 5905 2009-04-16 12:04:49Z milde $
 # Author: David Goodger <goodger@python.org>

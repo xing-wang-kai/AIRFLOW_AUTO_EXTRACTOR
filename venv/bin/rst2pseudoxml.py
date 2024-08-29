@@ -1,4 +1,4 @@
-#!/home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/bin/python3
+#!/home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/bin/python3.9
 
 # $Id: rst2pseudoxml.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

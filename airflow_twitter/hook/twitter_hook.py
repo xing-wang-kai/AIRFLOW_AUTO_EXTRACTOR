@@ -21,12 +21,10 @@ class TwitterHook(HttpHook):
         self.start_date = start_date
         self.end_date = end_date
         self.search_query = search_query
-        self.conn_id = conn_id or "twitter_default"
+        self.conn_id = conn_id or "twitter_connections_default"
         
         # Inicializa a classe pai HttpHook com o ID da conexão
-        print(f"this is connID {self.conn_id}")
         super().__init__(http_conn_id=self.conn_id)
-        print(f"this is connID {self.http_conn_id}")
 
     def create_url(self):
         """
@@ -34,11 +32,10 @@ class TwitterHook(HttpHook):
 
         :return: URL formatada para a requisição de busca de tweets recentes.
         """
-        
-        # Formato de data requerido pela API do Twitter
         FORMAT_DATE = "%Y-%m-%dT%H:%M:%S.00Z"
-        end_time = self.end_date.strftime(FORMAT_DATE)  # Data de término formatada
-        util_time = self.start_date.strftime(FORMAT_DATE)  # Data de início formatada
+        # Formato de data requerido pela API do Twitter
+        end_time = self.end_date  # Data de término formatada
+        start_time = self.start_date  # Data de início formatada
 
         # Campos que serão retornados na resposta da API
         tweet_fields = "tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text"
@@ -46,7 +43,8 @@ class TwitterHook(HttpHook):
         query = self.search_query
 
         # Monta a URL completa com os parâmetros de busca
-        url_raw = f"{self.base_url}/2/tweets/search/recent?query={query}&{tweet_fields}&{user_fields}&start_time={util_time}&end_time={end_time}"
+        url_raw = f"{self.base_url}/2/tweets/search/recent?query={query}&{tweet_fields}&{user_fields}&start_time={start_time}&end_time={end_time}"
+
         return url_raw
 
     def create_connection(self, url, session):
@@ -109,11 +107,10 @@ class TwitterHook(HttpHook):
         url = self.create_url()
         
         # Realiza a paginação para obter todos os tweets e retorna os resultados
-        paginated = self.create_paginate(url, session)
-
-        return paginated
+        return self.create_paginate(url, session)
 
 if __name__ == "__main__":
+    
     end_time= datetime.now()
     start_time = (datetime.now() + timedelta(-1)).date()
 

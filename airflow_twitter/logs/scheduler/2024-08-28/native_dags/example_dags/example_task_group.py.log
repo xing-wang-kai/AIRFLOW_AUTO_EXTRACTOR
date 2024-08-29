@@ -432,3 +432,171 @@
 [2024-08-28 14:43:41,067] {logging_mixin.py:115} INFO - [2024-08-28 14:43:41,067] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-08-28 14:43:41,082] {logging_mixin.py:115} INFO - [2024-08-28 14:43:41,081] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T17:43:41.081741+00:00, run_after=2024-08-28T17:43:41.081741+00:00
 [2024-08-28 14:43:41,096] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-08-28 16:57:38,794] {processor.py:153} INFO - Started process (PID=9784) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:57:38,795] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 16:57:38,795] {logging_mixin.py:115} INFO - [2024-08-28 16:57:38,795] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:57:38,803] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:57:38,841] {logging_mixin.py:115} INFO - [2024-08-28 16:57:38,841] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 16:57:38,854] {logging_mixin.py:115} INFO - [2024-08-28 16:57:38,853] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T19:57:38.853773+00:00, run_after=2024-08-28T19:57:38.853773+00:00
+[2024-08-28 16:57:38,863] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2024-08-28 16:58:09,490] {processor.py:153} INFO - Started process (PID=10046) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:58:09,491] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 16:58:09,491] {logging_mixin.py:115} INFO - [2024-08-28 16:58:09,491] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:58:09,498] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:58:09,516] {logging_mixin.py:115} INFO - [2024-08-28 16:58:09,516] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 16:58:09,537] {logging_mixin.py:115} INFO - [2024-08-28 16:58:09,537] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T19:58:09.536740+00:00, run_after=2024-08-28T19:58:09.536740+00:00
+[2024-08-28 16:58:09,546] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-08-28 16:58:42,576] {processor.py:153} INFO - Started process (PID=10211) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:58:42,576] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 16:58:42,577] {logging_mixin.py:115} INFO - [2024-08-28 16:58:42,577] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:58:42,582] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:58:42,596] {logging_mixin.py:115} INFO - [2024-08-28 16:58:42,596] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 16:58:42,611] {logging_mixin.py:115} INFO - [2024-08-28 16:58:42,611] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T19:58:42.611032+00:00, run_after=2024-08-28T19:58:42.611032+00:00
+[2024-08-28 16:58:42,619] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2024-08-28 16:59:16,191] {processor.py:153} INFO - Started process (PID=10612) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:59:16,192] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 16:59:16,192] {logging_mixin.py:115} INFO - [2024-08-28 16:59:16,192] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:59:16,198] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:59:16,214] {logging_mixin.py:115} INFO - [2024-08-28 16:59:16,214] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 16:59:16,233] {logging_mixin.py:115} INFO - [2024-08-28 16:59:16,233] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T19:59:16.233185+00:00, run_after=2024-08-28T19:59:16.233185+00:00
+[2024-08-28 16:59:16,245] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2024-08-28 16:59:49,145] {processor.py:153} INFO - Started process (PID=10937) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:59:49,145] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 16:59:49,146] {logging_mixin.py:115} INFO - [2024-08-28 16:59:49,146] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:59:49,152] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 16:59:49,165] {logging_mixin.py:115} INFO - [2024-08-28 16:59:49,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 16:59:49,181] {logging_mixin.py:115} INFO - [2024-08-28 16:59:49,181] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T19:59:49.180912+00:00, run_after=2024-08-28T19:59:49.180912+00:00
+[2024-08-28 16:59:49,190] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-08-28 17:00:21,723] {processor.py:153} INFO - Started process (PID=11113) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:00:21,724] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:00:21,724] {logging_mixin.py:115} INFO - [2024-08-28 17:00:21,724] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:00:21,730] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:00:21,743] {logging_mixin.py:115} INFO - [2024-08-28 17:00:21,743] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:00:21,757] {logging_mixin.py:115} INFO - [2024-08-28 17:00:21,757] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:00:21.757184+00:00, run_after=2024-08-28T20:00:21.757184+00:00
+[2024-08-28 17:00:21,765] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2024-08-28 17:00:56,913] {processor.py:153} INFO - Started process (PID=11379) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:00:56,914] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:00:56,914] {logging_mixin.py:115} INFO - [2024-08-28 17:00:56,914] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:00:56,920] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:00:56,933] {logging_mixin.py:115} INFO - [2024-08-28 17:00:56,932] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:00:56,949] {logging_mixin.py:115} INFO - [2024-08-28 17:00:56,949] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:00:56.949335+00:00, run_after=2024-08-28T20:00:56.949335+00:00
+[2024-08-28 17:00:56,958] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-08-28 17:01:27,753] {processor.py:153} INFO - Started process (PID=11482) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:01:27,754] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:01:27,755] {logging_mixin.py:115} INFO - [2024-08-28 17:01:27,755] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:01:27,765] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:01:27,783] {logging_mixin.py:115} INFO - [2024-08-28 17:01:27,783] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:01:27,805] {logging_mixin.py:115} INFO - [2024-08-28 17:01:27,805] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:01:27.805321+00:00, run_after=2024-08-28T20:01:27.805321+00:00
+[2024-08-28 17:01:27,818] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2024-08-28 17:02:00,906] {processor.py:153} INFO - Started process (PID=11682) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:02:00,907] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:02:00,907] {logging_mixin.py:115} INFO - [2024-08-28 17:02:00,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:02:00,914] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:02:00,931] {logging_mixin.py:115} INFO - [2024-08-28 17:02:00,930] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:02:00,951] {logging_mixin.py:115} INFO - [2024-08-28 17:02:00,950] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:02:00.950723+00:00, run_after=2024-08-28T20:02:00.950723+00:00
+[2024-08-28 17:02:00,962] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-08-28 17:02:32,428] {processor.py:153} INFO - Started process (PID=12031) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:02:32,428] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:02:32,429] {logging_mixin.py:115} INFO - [2024-08-28 17:02:32,429] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:02:32,435] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:02:32,450] {logging_mixin.py:115} INFO - [2024-08-28 17:02:32,450] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:02:32,466] {logging_mixin.py:115} INFO - [2024-08-28 17:02:32,466] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:02:32.466302+00:00, run_after=2024-08-28T20:02:32.466302+00:00
+[2024-08-28 17:02:32,477] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2024-08-28 17:03:03,857] {processor.py:153} INFO - Started process (PID=12283) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:03:03,858] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:03:03,858] {logging_mixin.py:115} INFO - [2024-08-28 17:03:03,858] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:03:03,864] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:03:03,883] {logging_mixin.py:115} INFO - [2024-08-28 17:03:03,883] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:03:03,909] {logging_mixin.py:115} INFO - [2024-08-28 17:03:03,909] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:03:03.909232+00:00, run_after=2024-08-28T20:03:03.909232+00:00
+[2024-08-28 17:03:03,923] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2024-08-28 17:03:36,505] {processor.py:153} INFO - Started process (PID=12402) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:03:36,505] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:03:36,506] {logging_mixin.py:115} INFO - [2024-08-28 17:03:36,506] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:03:36,511] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:03:36,525] {logging_mixin.py:115} INFO - [2024-08-28 17:03:36,525] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:03:36,539] {logging_mixin.py:115} INFO - [2024-08-28 17:03:36,539] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:03:36.539651+00:00, run_after=2024-08-28T20:03:36.539651+00:00
+[2024-08-28 17:03:36,549] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-08-28 17:04:08,632] {processor.py:153} INFO - Started process (PID=12441) to work on /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:04:08,632] {processor.py:641} INFO - Processing file /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:04:08,632] {logging_mixin.py:115} INFO - [2024-08-28 17:04:08,632] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:04:08,640] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:04:08,656] {logging_mixin.py:115} INFO - [2024-08-28 17:04:08,656] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:04:08,675] {logging_mixin.py:115} INFO - [2024-08-28 17:04:08,675] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:04:08.675239+00:00, run_after=2024-08-28T20:04:08.675239+00:00
+[2024-08-28 17:04:08,684] {processor.py:161} INFO - Processing /home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.055 seconds
+[2024-08-28 17:04:45,264] {processor.py:153} INFO - Started process (PID=12698) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:04:45,265] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:04:45,266] {logging_mixin.py:115} INFO - [2024-08-28 17:04:45,266] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:04:45,271] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:04:45,303] {logging_mixin.py:115} INFO - [2024-08-28 17:04:45,303] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:04:45,315] {logging_mixin.py:115} INFO - [2024-08-28 17:04:45,315] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:04:45.315014+00:00, run_after=2024-08-28T20:04:45.315014+00:00
+[2024-08-28 17:04:45,326] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.065 seconds
+[2024-08-28 17:05:17,715] {processor.py:153} INFO - Started process (PID=12831) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:05:17,716] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:05:17,716] {logging_mixin.py:115} INFO - [2024-08-28 17:05:17,716] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:05:17,723] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:05:17,739] {logging_mixin.py:115} INFO - [2024-08-28 17:05:17,739] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:05:17,754] {logging_mixin.py:115} INFO - [2024-08-28 17:05:17,754] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:05:17.754273+00:00, run_after=2024-08-28T20:05:17.754273+00:00
+[2024-08-28 17:05:17,765] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-08-28 17:05:50,777] {processor.py:153} INFO - Started process (PID=13031) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:05:50,778] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:05:50,778] {logging_mixin.py:115} INFO - [2024-08-28 17:05:50,778] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:05:50,784] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:05:50,797] {logging_mixin.py:115} INFO - [2024-08-28 17:05:50,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:05:50,810] {logging_mixin.py:115} INFO - [2024-08-28 17:05:50,810] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:05:50.810266+00:00, run_after=2024-08-28T20:05:50.810266+00:00
+[2024-08-28 17:05:50,819] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2024-08-28 17:06:23,271] {processor.py:153} INFO - Started process (PID=13105) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:06:23,272] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:06:23,272] {logging_mixin.py:115} INFO - [2024-08-28 17:06:23,272] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:06:23,277] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:06:23,290] {logging_mixin.py:115} INFO - [2024-08-28 17:06:23,290] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:06:23,302] {logging_mixin.py:115} INFO - [2024-08-28 17:06:23,302] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:06:23.302539+00:00, run_after=2024-08-28T20:06:23.302539+00:00
+[2024-08-28 17:06:23,312] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2024-08-28 17:06:56,575] {processor.py:153} INFO - Started process (PID=13321) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:06:56,576] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:06:56,576] {logging_mixin.py:115} INFO - [2024-08-28 17:06:56,576] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:06:56,585] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:06:56,602] {logging_mixin.py:115} INFO - [2024-08-28 17:06:56,602] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:06:56,623] {logging_mixin.py:115} INFO - [2024-08-28 17:06:56,623] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:06:56.622746+00:00, run_after=2024-08-28T20:06:56.622746+00:00
+[2024-08-28 17:06:56,635] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2024-08-28 17:07:30,247] {processor.py:153} INFO - Started process (PID=13526) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:07:30,248] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:07:30,249] {logging_mixin.py:115} INFO - [2024-08-28 17:07:30,249] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:07:30,261] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:07:30,287] {logging_mixin.py:115} INFO - [2024-08-28 17:07:30,285] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:07:30,310] {logging_mixin.py:115} INFO - [2024-08-28 17:07:30,310] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:07:30.309864+00:00, run_after=2024-08-28T20:07:30.309864+00:00
+[2024-08-28 17:07:30,322] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2024-08-28 17:08:02,228] {processor.py:153} INFO - Started process (PID=13569) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:08:02,229] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:08:02,230] {logging_mixin.py:115} INFO - [2024-08-28 17:08:02,230] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:08:02,236] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:08:02,250] {logging_mixin.py:115} INFO - [2024-08-28 17:08:02,250] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:08:02,264] {logging_mixin.py:115} INFO - [2024-08-28 17:08:02,263] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:08:02.263755+00:00, run_after=2024-08-28T20:08:02.263755+00:00
+[2024-08-28 17:08:02,274] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2024-08-28 17:08:36,993] {processor.py:153} INFO - Started process (PID=13609) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:08:36,993] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:08:36,994] {logging_mixin.py:115} INFO - [2024-08-28 17:08:36,994] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:08:37,000] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:08:37,014] {logging_mixin.py:115} INFO - [2024-08-28 17:08:37,014] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:08:37,027] {logging_mixin.py:115} INFO - [2024-08-28 17:08:37,027] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:08:37.027125+00:00, run_after=2024-08-28T20:08:37.027125+00:00
+[2024-08-28 17:08:37,036] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2024-08-28 17:09:07,804] {processor.py:153} INFO - Started process (PID=13648) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:09:07,805] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:09:07,806] {logging_mixin.py:115} INFO - [2024-08-28 17:09:07,806] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:09:07,813] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:09:07,830] {logging_mixin.py:115} INFO - [2024-08-28 17:09:07,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:09:07,846] {logging_mixin.py:115} INFO - [2024-08-28 17:09:07,846] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:09:07.846614+00:00, run_after=2024-08-28T20:09:07.846614+00:00
+[2024-08-28 17:09:07,859] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.058 seconds
+[2024-08-28 17:09:42,043] {processor.py:153} INFO - Started process (PID=13738) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:09:42,043] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:09:42,044] {logging_mixin.py:115} INFO - [2024-08-28 17:09:42,044] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:09:42,049] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:09:42,062] {logging_mixin.py:115} INFO - [2024-08-28 17:09:42,062] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:09:42,076] {logging_mixin.py:115} INFO - [2024-08-28 17:09:42,076] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:09:42.076043+00:00, run_after=2024-08-28T20:09:42.076043+00:00
+[2024-08-28 17:09:42,085] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2024-08-28 17:10:14,559] {processor.py:153} INFO - Started process (PID=13777) to work on /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:10:14,560] {processor.py:641} INFO - Processing file /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-28 17:10:14,560] {logging_mixin.py:115} INFO - [2024-08-28 17:10:14,560] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:10:14,565] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-28 17:10:14,579] {logging_mixin.py:115} INFO - [2024-08-28 17:10:14,578] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-28 17:10:14,592] {logging_mixin.py:115} INFO - [2024-08-28 17:10:14,592] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-27T20:10:14.592006+00:00, run_after=2024-08-28T20:10:14.592006+00:00
+[2024-08-28 17:10:14,603] {processor.py:161} INFO - Processing /home/kai/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds

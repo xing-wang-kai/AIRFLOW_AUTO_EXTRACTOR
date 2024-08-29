@@ -1,4 +1,4 @@
-#!/home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/bin/python3
+#!/home/kai/Documents/PROJETOS/twitter_extractor_airflow/venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
